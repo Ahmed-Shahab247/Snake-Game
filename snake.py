@@ -7,7 +7,7 @@ DOWN = 270
 LEFT = 180
 RIGHT = 0
 
-
+#This file is to handle movement and initialization of the snake 
 class Snake:
     def __init__(self):
         self.snake = []
