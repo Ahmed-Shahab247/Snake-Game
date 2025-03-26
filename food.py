@@ -1,6 +1,7 @@
 from turtle import Turtle
 import random
 class Food(Turtle):
+    #This file is mainly to place food on the screen at random places
     def __init__(self):
         super().__init__()
         self.rand_x = random.randint(-230, 230)
